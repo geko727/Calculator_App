@@ -33,6 +33,8 @@ puts b
 # 9
 h = {a:1, b:2, c:3, d:4}
 puts h[:b]
-#10 
-
-
+# 10 
+h[:e] = 5
+puts h
+# 13
+puts h.select{|c, d| d > 3.5}
