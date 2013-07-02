@@ -46,4 +46,4 @@ puts j
 k = [l = {a:1, b:2}, m = {c:3, d:4}]
 puts k
 # 15
-
+# http://www.ruby-lang.org/en/
