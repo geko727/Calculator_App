@@ -38,3 +38,12 @@ h[:e] = 5
 puts h
 # 13
 puts h.select{|c, d| d > 3.5}
+# 14
+# hash {arrays}
+j = {a: [1, 2], b: [3, 4], c: [5, 6], d: [7, 8]}
+puts j
+# array [hashes]
+k = [l = {a:1, b:2}, m = {c:3, d:4}]
+puts k
+# 15
+
